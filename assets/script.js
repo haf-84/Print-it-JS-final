@@ -50,9 +50,9 @@ function goToSlide(index) {
     // Mettre en surbrillance le point correspondant à la diapositive active
     dots.forEach((dot, i) => {
         if (i === index) {
-            dot.classList.add('selected');
+            dot.classList.add('dot_selected');
         } else {
-            dot.classList.remove('selected');
+            dot.classList.remove('dot_selected');
         }
     });
 }
